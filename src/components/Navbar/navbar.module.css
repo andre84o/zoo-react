@@ -1,0 +1,98 @@
+.sideNav {
+    position: relative;
+    width: 240px;
+    background-color: rgba(13, 83, 56, 0.6);
+    min-height: 100%;
+    padding: 0 30px;
+    left: -100%;
+    transition: left 0.4s ease;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.active {
+    left: 0;
+}
+
+.logo {
+    width: 50px;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+    margin-right: 8px;
+}
+
+
+.animalItem {
+    color: #fff;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.animalLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding: 5px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+
+.animalLink:hover {
+    background-color: rgba(0, 35, 63, 0.3);
+}
+
+ul {
+    padding: 0;
+}
+
+ul li {
+    list-style-type: none;
+    margin: 10px 0px;
+}
+
+ul li a {
+    color: #eaecef;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+    padding: 10px 15px;
+    border-radius: 6px;
+}
+
+ul li a:hover,
+ul li a.active {
+    background: #172b4d;
+}
+
+header svg {
+    font-size: 40px;
+}
+
+@media (max-width: 768px) {
+    .sideNav {
+        height: 100vh;
+        width: 20%;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
+        
+    }
+
+    .animalName {
+        display: none;
+    }
+    
+        
+    
+}

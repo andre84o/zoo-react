@@ -1,0 +1,32 @@
+:root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    --orgin-font: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+#root {
+    height: 100vh;
+    flex-direction: column;
+  }
+  
+  
+*{
+    box-sizing: border-box;
+  }
+  
+body {
+    background-color: #F1E4C5; ;
+    font-family: 'Fredoka', sans-serif;
+    min-height: 100%;
+    margin: 0;
+  }
+
+
+svg {
+    font-size: 30px;
+  }
+
+.main {
+   flex-grow: 1;
+ }

@@ -1,0 +1,31 @@
+.mobileNavContainer {
+    display: none;
+}
+
+
+@media (max-width: 768px) {
+.mobileNavContainer {
+    display: flex;
+    position: relative;
+  }
+  
+  .hamburgerWrapper {
+    position: flex;
+    top: 1.5rem;
+    right: 1rem;
+    z-index: 1000;
+  }
+  
+  .Mobnav {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    background-color: none;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+  }
+}

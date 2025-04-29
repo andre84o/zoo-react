@@ -1,0 +1,30 @@
+.link {
+    color: #ffff;
+    gap: 10px;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.1s ease;
+    
+   
+}
+
+.link.active {
+    border: 1px solid #ffff;
+    border-radius: 18px;
+}
+
+
+@media (max-width: 768px) {
+
+    .link {
+        background-color: rgba(13, 83, 56, 0.7);
+        gap: 10px;
+        padding: 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: all 0.1s ease;
+        
+       
+    }
+}

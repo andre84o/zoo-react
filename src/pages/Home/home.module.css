@@ -1,0 +1,24 @@
+.animalItem {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease;
+  }
+  
+  .animalItem:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+  
+  .active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+  
