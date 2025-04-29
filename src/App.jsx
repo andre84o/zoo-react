@@ -21,6 +21,7 @@ function App() {
       <Route path="/mammals" element={<Mammals />}/>
       <Route path="/reptiles" element={<Reptiles />}/>
       <Route path="/birds" element={<Birds />}/>
+      <Route path="*" element={<NotFound />} />
       </Route>
       </Routes>
     </>
