@@ -1,11 +1,13 @@
-Header - Navigation (Animals), Hamburger( For Sidebar)
+Header - Navigation (Animals), Hamburger( For Sidebar) - Link map
+        - menu 
+        - Mobile hamburgermenu - onClick open and close
 
 Main - Filter: animal info 50 words, and Food, Age exc. Animal group <Link> To other Pages
         - Welcome masaage - Prop
-        - readmore: Oncklick
-        -
+        - readmore botton: Oncklick
+        
 
-Footer
+Footer 
 
 Sidebar - Filter - Home (all)
                  - Birds 
@@ -16,13 +18,14 @@ Pages - Home, Birds, Reptile, Mammals
         - Props 
         - Welcome Massage for each group (filter)
 
-Outlet
+Main -  ActivAnimals
+        Page Title - props
 
-Layout - 
 
 BrowserRouter - main.jsx 
 
-Data - All info Array - Export 
-Animal - Components - 
+Animal Data - All info Array - Export 
+
+
 
 
