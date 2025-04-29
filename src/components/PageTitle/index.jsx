@@ -1,4 +1,4 @@
-import styles from './pageTitle.module.css';
+import styles from './pagetitle.module.css';
 
 const PageTitle = ({name }) => {
   if (!name) return null;
