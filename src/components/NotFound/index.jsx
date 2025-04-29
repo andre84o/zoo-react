@@ -1,8 +1,10 @@
+import styles from './notfound.module.css'
+
 const NotFound = () => {
     return (
-      <div style={{ padding: "2rem", textAlign: "center" }}>
-        <h1>404 - Sidan hittades inte</h1>
-        <p>Oj! Sidan du letar efter finns inte.</p>
+      <div className={styles.error}>
+        <h1>404 - Page Not Found</h1>
+        <p>Oops! The page you are looking for does not exist.</p>
       </div>
     );
   };

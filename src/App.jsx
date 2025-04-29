@@ -7,6 +7,7 @@ import Birds from './pages/Birds'
 import Mammals from './pages/Mammals'
 import Reptiles from './pages/Reptiles'
 import Layout from './pages/Layout'
+import NotFound from './components/NotFound'
 
 
 function App() {
