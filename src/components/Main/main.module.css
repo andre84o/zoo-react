@@ -140,13 +140,20 @@
     }
 
     .closeBtn {
+        background: transparent;
         color: white;
+        border: none;
         display: flex;
         justify-content: flex-end;
         right: 0.5rem;
         top: 2rem;
         z-index: 1000;
       }
+
+    .closeBtn:hover {
+        color: #dabcbc;
+      }
+    
 
     
 
