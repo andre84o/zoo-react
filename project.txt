@@ -1,3 +1,8 @@
+Animal Data - All info Array - Export 
+Main.jsx - BrowserRouter 
+
+
+
 Header - Navigation (Animals), Hamburger( For Sidebar) - Link map
         - menu 
         - Mobile hamburgermenu - onClick open and close
@@ -5,27 +10,36 @@ Header - Navigation (Animals), Hamburger( For Sidebar) - Link map
 Main - Filter: animal info 50 words, and Food, Age exc. Animal group <Link> To other Pages
         - Welcome masaage - Prop
         - readmore botton: Oncklick
+        - useState
+        - useLocation
+        -  ActivAnimals
+        
+Page Title - props
         
 
-Footer 
-
-Sidebar - Filter - Home (all)
+Sidebar (Navbar)- Filter - Home (all) - Link
                  - Birds 
                  - Reptile
                  - Mammals
 
-Pages - Home, Birds, Reptile, Mammals
+Navigation - NavMobile
+           - Array
+           - map
+
+NavItem - Navlink 
+        - Oncklick
+        - Active
+
+Pages - Home, Birds, Reptile, Mammals, Layout
         - Props 
         - Welcome Massage for each group (filter)
 
-Main -  ActivAnimals
-        Page Title - props
-
-
-BrowserRouter - main.jsx 
-
-Animal Data - All info Array - Export 
-
+Layout  - Outlet, useLocation 
+        - useEffect, useState, useRef
+        - onAnimalClick
+        - activeAnimal
+        -showNav, setShowNav
 
 
 
+Footer - 
