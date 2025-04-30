@@ -27,7 +27,9 @@ const Main = ({ activeAnimal, setActiveAnimal, group }) => {
 
       {activeAnimal && isHomePage && (
         <div className={styles.overlay}>
-            <button className={styles.closeBtn} onClick={() => setActiveAnimal(null)}>✖</button>
+            <button className={styles.closeBtn} onClick={() => setActiveAnimal(null)}>
+              <img src="/images/CloseBT.png" alt="Stäng" />
+            </button>
         <div className={styles.container}>
 
           <h2>{activeAnimal.name}</h2>
@@ -50,7 +52,9 @@ const Main = ({ activeAnimal, setActiveAnimal, group }) => {
 
         {activeAnimal && !isHomePage && (
           <div className={styles.overlay}>
-            <button className={styles.closeBtn} onClick={() => setActiveAnimal(null)}>✖</button>
+            <button className={styles.closeBtn} onClick={() => setActiveAnimal(null)}>
+              <img src="/images/CloseBT.png" alt="Stäng" />
+            </button>
           
             <div className={styles.container}>
             <h2>{activeAnimal.name}</h2>

@@ -98,11 +98,19 @@
     cursor: pointer;
     color: #ffffff;
     top: 1rem;
+    left: 55rem;
   }
   
 .closeBtn:hover {
     color: #000;
 }
+
+.closeBtn img {
+    width: 40%;
+    height: 40%;
+    object-fit: contain;
+  }
+
 
 
 @media (max-width: 768px) {
@@ -148,10 +156,17 @@
         right: 0.5rem;
         top: 2rem;
         z-index: 1000;
+
       }
 
     .closeBtn:hover {
         color: #dabcbc;
+      }
+
+      .closeBtn img {
+        width: 10%;
+        height: 10%;
+        object-fit: contain;
       }
     
 
