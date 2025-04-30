@@ -69,7 +69,7 @@
 .overlay {
     position: absolute;
     top: 100px;
-    width: 100%;
+    width: 100vw;
     right: 0.15rem;
     height: calc(100vh - 180px);
     background-color: rgba(0, 0, 0, 0.6); 
