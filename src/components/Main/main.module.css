@@ -90,6 +90,7 @@
 
 
 .closeBtn {
+    display: flex;
     position: absolute;
     right: 20rem;
     background: none;
@@ -98,18 +99,21 @@
     cursor: pointer;
     color: #ffffff;
     top: 1rem;
-    left: 55rem;
-  }
+    left: 1rem;
+    width: 30%;
+    height: 30%;
+    z-index: 1000;
+}
   
 .closeBtn:hover {
     color: #000;
 }
 
 .closeBtn img {
-    width: 40%;
-    height: 40%;
+    width: 20%;
+    height: 20%;
     object-fit: contain;
-  }
+}
 
 
 
@@ -124,8 +128,6 @@
         font-size: 0.7rem;
         margin-left: 4rem;
         margin-right: 4rem;
-        
-        
     }
   
     .animalImage {
@@ -140,7 +142,7 @@
     .closeBtn {
         right: 25%;
         top: 6%;
-      }
+    }
 
     .overlay {
         height: 100%;
@@ -148,28 +150,22 @@
     }
 
     .closeBtn {
-        background: transparent;
+        position: absolute;
         color: white;
-        border: none;
         display: flex;
-        justify-content: flex-end;
-        right: 0.5rem;
+        left: 1rem;
         top: 2rem;
+        width: 30%;
+        height: 30%;
         z-index: 1000;
+        
+        
+    }
 
-      }
-
-    .closeBtn:hover {
-        color: #dabcbc;
-      }
-
-      .closeBtn img {
-        width: 10%;
-        height: 10%;
+    .closeBtn img {
+        width: 30%;
+        height: 30%;
         object-fit: contain;
-      }
-    
-
-    
+    }
 
   }
