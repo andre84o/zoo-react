@@ -140,6 +140,7 @@
     }
 
     .closeBtn {
+        color: white;
         display: flex;
         justify-content: flex-end;
         right: 1rem;
