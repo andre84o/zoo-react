@@ -6,8 +6,6 @@
     justify-content: center;
     text-align: center;
     width: 100%;
-
-    
 }
 
 .Title {
@@ -27,9 +25,32 @@
     width: 40%;
     text-align: center;
     border-radius: 1rem;
-   
-    margin-bottom: 50px;
+    overflow: auto;
+    max-height: calc(100vh - 200px);
+    height: auto; 
+    bottom: 2rem;
+    overflow: auto;
+    scrollbar-width: none;        
+    -ms-overflow-style: none;  
+    &::-webkit-scrollbar {        
+    display: none;
   }
+}
+
+.overlay {
+    position: fixed;
+    display: flex;
+    top: 100px;
+    width: 100vw;
+    right: 0.15rem;
+    bottom: 3rem;
+    overflow-y: auto;
+    background-color: rgba(0, 0, 0, 0.6); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
 
 .groupLink {
     color: #3B5A3A;
@@ -66,18 +87,7 @@
     background-color: #2e4a2c;
 }
 
-.overlay {
-    position: absolute;
-    top: 100px;
-    width: 100vw;
-    right: 0.15rem;
-    height: calc(100vh - 180px);
-    background-color: rgba(0, 0, 0, 0.6); 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 999;
-}
+
 
 .closeBtn {
     position: absolute;
@@ -107,6 +117,7 @@
         margin-left: 4rem;
         margin-right: 4rem;
         
+        
     }
   
     .animalImage {
@@ -124,7 +135,6 @@
       }
 
     .overlay {
-        
         height: 100%;
         width: 100vw;
     }
