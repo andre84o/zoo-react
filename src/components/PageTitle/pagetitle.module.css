@@ -1,11 +1,14 @@
 .pageTitle {
     display: flex;
+    color: #fff;
+    background-color: rgba(136, 127, 127, 0.2);
     font-size: 2.5rem;
-    color: #ffffff;
     text-align: center;
     margin-right: 230px;
-    padding: 0;
+    padding: 10px;
     max-width: 800px;
+    border: 1px solid #ffff;
+    border-radius: 18px;
   }
 
   @media (max-width: 768px) {
